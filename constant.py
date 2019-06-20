@@ -1,0 +1,1 @@
+valid_img_file_suffix = ("jpg", "jpeg", "png", "gif")
