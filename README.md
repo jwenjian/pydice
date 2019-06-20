@@ -3,6 +3,9 @@
 ## What
 A Python GUI application to roll a dice to select an image in a folder.
 
+## Screenshots
+![pydice.gif](https://user-images.githubusercontent.com/25657798/59865091-cfbd4a80-93ba-11e9-981b-45b8a25784c7.gif)
+
 ## How to use
 
 1. Click [Start] button or "File -> from image folder" to select a folder that contains 2 or more images(.jpg/.png/.gif)
