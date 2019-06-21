@@ -69,6 +69,8 @@ class PyDice:
         top.configure(highlightcolor="black")
         # disable window resize
         top.resizable(0, 0)
+        # set custom icon file
+        top.iconbitmap("favicon.ico")
 
         self.Canvas1 = tk.Canvas(top)
         self.Canvas1.place(relx=0.0, rely=0.0, relheight=0.657, relwidth=1.003)
