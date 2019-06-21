@@ -20,6 +20,7 @@ except ImportError:
     py3 = True
 
 import pydice_support
+from os import path
 
 
 def vp_start_gui():
@@ -70,7 +71,8 @@ class PyDice:
         # disable window resize
         top.resizable(0, 0)
         # set custom icon file
-        top.iconbitmap("favicon.ico")
+        if path.exists('./favicon.ico'):
+            top.iconbitmap("./favicon.ico")
 
         self.Canvas1 = tk.Canvas(top)
         self.Canvas1.place(relx=0.0, rely=0.0, relheight=0.657, relwidth=1.003)

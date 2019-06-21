@@ -2,3 +2,6 @@
 *.bak*
 imgs/
 __pycache__/
+*.spec
+build/
+dist/

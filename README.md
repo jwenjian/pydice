@@ -16,5 +16,8 @@ A Python GUI application to roll a dice to select an image in a folder.
 
 1. `pip install pillow` to support .jpg file
 
-## What's next
-[ ] Bundle to .exe
+## Bundle
+
+- Run `pip install pyinstaller`
+- Run `pyinstaller -w pydice_support.py -n pydice -i favicon.ico`, it will generate `build` and `dist` folder
+- copy favicon.ico to dist folder

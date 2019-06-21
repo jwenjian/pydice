@@ -212,7 +212,7 @@ def show_about_window():
     """show about info, ask user if to open github url in browser"""
     yes_to_open_github = messagebox.askyesno("PyDice v1.0.0", message="""
     
-    Version:    v1.0.0
+    Version:    v1.0.1
     Author:     Jiang Wenjian
     Github:     https://github.com/jwenjian/pydice
     Licence:    GPL - 3.0
